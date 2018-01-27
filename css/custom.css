@@ -942,6 +942,9 @@ form
 }
 
 @media (max-width: 400px) {
+    #theme-btn{
+        display: none;
+    }
     #port-items .col-xs-6 {
         width: 100%;
     }
