@@ -1,5 +1,5 @@
 if($('.switch-input').is(':checked')){
-    $('body, input:text, textarea').css({'background-color':'#0A0A0A'});
+    $('body, input:text, textarea').css({'background-color':'#0A0A0A', 'color':'#FFFFFF'});
     $('.btn-primary').css({'background-color':'#0A0A0A'});
     $('.btn-primary').css({'border-color':'white'});
     $('nav').removeClass('navbar-white');
@@ -34,7 +34,7 @@ if($('.switch-input').is(':checked')){
 
   $('.switch :checkbox').change(function(){
     if(this.checked){
-    $('body, input:text, textarea').css({'background-color':'#0A0A0A'});
+    $('body, input:text, textarea').css({'background-color':'#0A0A0A', 'color':'#FFFFFF'});
     $('.btn-primary').css({'background-color':'#0A0A0A'});
     $('.btn-primary').css({'border-color':'white'});
     $('nav').removeClass('navbar-white');
