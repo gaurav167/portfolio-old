@@ -67,7 +67,7 @@ if($('.switch-input').is(':checked')){
       });
   }
   else{
-    $('body, input:text, textarea').css({'background-color':'#eee'});
+    $('body, input:text, textarea').css({'background-color':'#eee', 'color':'#333333'});
     $('.btn-primary').css({'background-color':'#3acab1'});
     $('.btn-primary').css({'border-color':'#3acab1'});
     $('nav').removeClass('navbar-dark');
